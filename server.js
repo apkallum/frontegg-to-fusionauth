@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser')
 
-const { getUser, authUser, getUsers } = require('./frontegg')
+const { getUser, authUser } = require('./frontegg')
 
 
 const app = express();
